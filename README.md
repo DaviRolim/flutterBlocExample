@@ -1,4 +1,4 @@
-# testapp
+# Flutter Bloc Simple tests.
 
 A new Flutter project.
 
