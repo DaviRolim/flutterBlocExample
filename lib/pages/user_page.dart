@@ -21,6 +21,7 @@ class UserPage extends StatelessWidget {
       ),
       body: Center(
         child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             StreamBuilder<User>(
               initialData: User.empty(),

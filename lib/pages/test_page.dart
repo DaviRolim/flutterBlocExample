@@ -27,6 +27,7 @@ class TestPageBloc extends StatelessWidget {
       ),
       body: Center(
         child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             StreamBuilder<Test>(
               initialData: Test.empty(),

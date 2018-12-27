@@ -1,4 +1,3 @@
-import 'package:bloc_pattern/bloc_pattern.dart';
 import 'package:flutter/material.dart';
 import 'package:testapp/blocs/test_api_bloc.dart';
 import 'package:testapp/models/test.dart';
@@ -6,6 +5,7 @@ import 'package:testapp/models/test.dart';
 class SecondPage extends StatelessWidget {
   SecondPage(this.testBloc);
   final TestBloc testBloc;
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -14,6 +14,7 @@ class SecondPage extends StatelessWidget {
       ),
       body: Center(
         child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             StreamBuilder<Test>(
               initialData: Test.empty(),

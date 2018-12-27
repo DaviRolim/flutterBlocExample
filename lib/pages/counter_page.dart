@@ -17,6 +17,7 @@ class CounterPage extends StatelessWidget {
       ),
       body: Center(
         child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             StreamBuilder<int>(
               initialData: 0,
